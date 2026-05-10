@@ -1,3 +1,4 @@
+// this is the portpolio data
 import ProfileImg from "../assets/myimage.jpeg";
 import Osctech from "../assets/osctech.png";
 import Osctech1 from "../assets/osctech1.png";
@@ -7,6 +8,13 @@ import boarding1 from "../assets/boarding1.jpeg";
 import boarding2 from "../assets/boarding2.jpeg";
 import backgroundremove1 from "../assets/backgroundremove1.png";
 import backgroundremove2 from "../assets/backgroundremove2.png";
+import res1 from "../assets/res1.png";
+import res2 from "../assets/res2.png";
+import res3 from "../assets/res3.png";
+import res4 from "../assets/res4.png";
+import res5 from "../assets/res5.png";
+import res6 from "../assets/res6.png";
+import res7 from "../assets/res7.png";
 
 export const portfolioData = {
   profile: {
@@ -37,6 +45,7 @@ export const portfolioData = {
     { name: "Kotlin" },
     { name: "Angular" },
     { name: "R" },
+    { name: "Electron.js" },
     { name: "MySQL" },
     { name: "MongoDB" },
     { name: "AWS" },
@@ -112,6 +121,29 @@ export const portfolioData = {
     ],
 
     images: [backgroundremove1,backgroundremove2]
+  },
+
+  {
+    id: "hangup-chef-pos",
+    name: "Hang-Up Chef POS System",
+    description: "A comprehensive point-of-sale system with real-time stock management, sales tracking, automated backups, and an intuitive dashboard for restaurant and retail operations.",
+    details: "Hang-Up Chef POS System is a full-featured point-of-sale solution designed for restaurants, cafes, and retail outlets. The system enables efficient order management, real-time inventory tracking with low stock alerts, and complete sales reporting. Built-in backup functionality ensures data safety, while the interactive POS dashboard provides instant visibility into daily transactions, stock levels, and financial performance.",
+    
+    ftech: ["Blade Template Engine ", "HTML5", "CSS", "Tailwind CSS", "JavaScript"],
+     btech: ["Laravel Framework (PHP)","MySQL","Laravel Migration & Seeder","Laravel Middleware", "RESTful API"],
+
+    features: [
+    "POS Dashboard with real-time transaction processing, cart management, and instant billing for walk-in customers.",
+    "Stock Management system where admins can view inventory categorized as In Stock, Low Stock, and Out of Stock with auto-generated alerts.",
+    "Complete product management including adding, editing, deleting, and categorizing menu items or retail products.",
+    "Automated database backup feature allowing admins to schedule or manually trigger backups with one-click restore capability.",
+    "Sales reporting with daily, weekly, monthly, and custom date range filters to track revenue, profit, and popular items.",
+    "Role-based access control where Super Admins manage staff accounts and assign permissions for cashiers, managers, and admins.",
+    "Low stock notification system that automatically alerts admins when product quantities fall below the defined threshold.",
+    "Order history and transaction logs for complete audit trail and customer purchase tracking."
+    ],
+
+    images: [res1,res2,res3,res4,res5,res6,res7]
   }
   ]
 };
